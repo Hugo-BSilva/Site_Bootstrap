@@ -7,17 +7,67 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.scss">
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
-
     <title>Curso de Bootstrap</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
 
+    <nav class="navbar navbar-fixed-left navbar-expand-lg navbar-dark bg-primary">
+
+      <div class="container">
+
+        <!--mb = margin bottom = 0-->
+        <a class="navbar-brand h1 mb-0" href="#">Curso</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSite">
+
+          <!--mr=margin-->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contatos</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" id="navDrop">Social</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href=""> Facebook</a>
+                <a class="dropdown-item" href="">Twitter</a>
+                <a class="dropdown-item" href="">Whatsapp</a>
+              </div>
+            </li>
+          </ul>
+
+          <form class="form-inline" action="">
+            <input class="form-control ml-2 mr-2" type="search" placeholder="Buscar...">
+            <button class="btn btn-dark" type="submit">OK</button>
+          </form>
+        </div>
+
+      </div>
+
+    </nav>
+    
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules//bootstrap/dist/js/bootstrap.js"></script>
   </body>
 </html>
