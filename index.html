@@ -95,7 +95,7 @@
 
           <img src="img/foto2.jpg" class="img-fluid d-block" alt="">
           <!--Esconde o texto que está dentro da imagem, apenas na menor resolução.-->
-          <div class="carousel-caption d-none d-md-block text-info">
+          <div class="carousel-caption d-none d-md-block text-dark">
             <h2>Second slide label</h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
@@ -135,7 +135,7 @@
 
       <div class="row">
 
-        <!--my= margin-top: 5-->
+        <!--my= margin-top e margin-bottom: 5-->
         <div class="col-12 text-center my-5">
 
           <h1 class="display-3">Seja bem vindo!</h1>
@@ -147,7 +147,7 @@
       </div>
 
       <!--Área de texto-->
-      <div class="row sb-5">
+      <div class="row mb-5">
 
         <div class="col-3">
 
@@ -155,20 +155,20 @@
 
             <nav class="nav nav-pills flex-column">
 
-              <a class="nav-link" href="item1">Item 1</a>
+              <a class="nav-link" href="#item1">Item 1</a>
 
                 <!--SUBITEM, DO ITEM 1-->
                 <nav class="nav nav-pills flex-column">
 
-                  <a class="nav-link ml-3" href="item1-1">Item 1.1</a>
+                  <a class="nav-link ml-3" href="#item1-1">Item 1.1</a>
 
-                  <a class="nav-link ml-3" href="item1-2">Item 1.2</a>
+                  <a class="nav-link ml-3" href="#item1-2">Item 1.2</a>
 
                 </nav>
 
-              <a class="nav-link my-2" href="item2">Item 2</a>
+              <a class="nav-link my-3" href="#item2">Item 2</a>
 
-              <a class="nav-link my-2" href="item3">Item 3</a>
+              <a class="nav-link my-3" href="#item3">Item 3</a>
 
             </nav>
 
@@ -178,7 +178,7 @@
 
         <div class="col-9">
 
-          <div data-spy="scrool" data-target="#navbarVertical" data-offiset="0">
+          <div data-spy="scroll" data-target="#navbarVertical" data-offiset="0" class="scrollspySite">
 
             <h4 id="item1">Item 1</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos tempora quia facere quo fugiat ducimus, temporibus officiis numquam impedit alias sint magnam sunt voluptatum expedita cupiditate accusantium ipsa obcaecati ipsam!</p>
@@ -201,6 +201,113 @@
 
       </div>
       
+      <!--CARDS-->
+      <div class="row mb-5">
+        <!--Card 1-->
+        <div class="col-sm 4">
+
+          <div class="card">
+
+            <img class="card-img-top" src="img/foto1.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Skills</h4>
+              <h6 class="card-subtitle mb-2 text-muted">HTML5</h6>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis optio iure, similique maxime praesentium officia porro eum voluptatem non consectetur nisi, animi, commodi possimus veniam ad sed facere nemo ipsam!</p>
+
+              <!--Lista card-->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Orci varius natoque</li>
+                <li class="list-group-item">Orci varius natoque</li>
+                <li class="list-group-item">Orci varius natoque</li>
+              </ul>
+
+              <div class="card-body">
+                <a class="card-link" href="#">Document</a>
+                <a class="card-link" href="#">Button</a>
+              </div>
+
+            </div>
+
+            <!--Rodapé do card-->
+            <div class="card-footer text-muted">
+              fim card
+            </div>
+
+          </div>
+
+        </div>
+
+        <!--Card 2-->
+        <div class="col-sm 4">
+
+          <div class="card">
+            
+            <img class="card-img-top" src="img/foto2.jpg" alt="">
+            <div class="card-body">
+
+              <h4 class="card-title">Skills</h4>
+              <h6 class="card-subtitle mb-2 text-muted">HTML5</h6>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis optio iure, similique maxime praesentium officia porro eum voluptatem non consectetur nisi, animi, commodi possimus veniam ad sed facere nemo ipsam!</p>
+
+              <!--Lista do card-->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Orci varius natoque</li>
+                <li class="list-group-item">Orci varius natoque</li>
+                <li class="list-group-item">Orci varius natoque</li>
+              </ul>
+
+              <div class="card-body">
+                <a class="card-link" href="#">Document</a>
+                <a class="card-link" href="#">Button</a>
+              </div>
+              
+            </div>
+
+            <!--Rodapé do card-->
+            <div class="card-footer text-muted">
+              fim card
+            </div>
+
+          </div>
+
+        </div>
+
+        <!--Card 3-->
+        <div class="col-sm 4">
+
+          <div class="card">
+
+            <img class="card-img-top" src="img/foto3.jpg" alt="">
+            <div class="card-body">
+
+              <h4 class="card-title">Skills</h4>
+              <h6 class="card-subtitle mb-2 text-muted">HTML5</h6>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis optio iure, similique maxime praesentium officia porro eum voluptatem non consectetur nisi, animi, commodi possimus veniam ad sed facere nemo ipsam!</p>
+
+              <!--Lista do card-->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Orci varius natoque</li>
+                <li class="list-group-item">Orci varius natoque</li>
+                <li class="list-group-item">Orci varius natoque</li>
+              </ul>
+
+              <div class="card-body">
+                <a class="card-link" href="#">Document</a>
+                <a class="card-link" href="#">Button</a>
+              </div>
+            </div>
+
+            <!--Rodapé do card-->
+            <div class="card-footer text-muted">
+              fim card
+            </div>
+
+          </div>
+
+        </div>     
+
+      </div>
+
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
