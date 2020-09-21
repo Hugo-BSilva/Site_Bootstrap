@@ -13,12 +13,12 @@
   </head>
   <body>
     <!--MENU NA PARTE SUPERIOR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
       <div class="container">
 
         <!--mb = margin bottom = 0-->
-        <a class="navbar-brand h1 mb-0" href="#">Curso</a>
+        <a class="navbar-brand h1 mb-0" href="#">Tecnologia</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
           <span class="navbar-toggler-icon"></span>
@@ -58,7 +58,7 @@
 
           <form class="form-inline" action="">
             <input class="form-control ml-2 mr-2" type="search" placeholder="Buscar...">
-            <button class="btn btn-dark" type="submit">OK</button>
+            <button class="btn btn-info" type="submit">OK</button>
           </form>
 
         </div>
@@ -85,8 +85,8 @@
           <img src="img/foto1.jpg" class="img-fluid d-block" alt="">
           <!--Esconde o texto que está dentro da imagem, apenas na menor resolução.-->
           <div class="carousel-caption d-none d-md-block text-dark">
-            <h2>First slide label</h2>
-            <p class="lead">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h2>Primeira foto do slide</h2>
+            <p class="lead">Carrossel feito com bootstrap 4</p>
           </div>
         </div>
 
@@ -95,9 +95,9 @@
 
           <img src="img/foto2.jpg" class="img-fluid d-block" alt="">
           <!--Esconde o texto que está dentro da imagem, apenas na menor resolução.-->
-          <div class="carousel-caption d-none d-md-block text-dark">
-            <h2>Second slide label</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Segunda foto do slide</h2>
+            <p class="lead">Carrossel feito com bootstrap 4</p>
           </div>
         </div>
 
@@ -292,7 +292,8 @@
               </ul>
 
               <div class="card-body">
-                <a class="card-link" href="#">Document</a>
+                <!--data-toggle para chamar o moda, data-target para indiciar o id do modal-->
+                <a class="card-link" href="#" data-toggle="modal" data-target="#siteModal">Document</a>
                 <a class="card-link" href="#">Button</a>
               </div>
             </div>
@@ -308,6 +309,53 @@
 
       </div>
 
+    </div>
+
+    <!--CRIANDO MODAL-->
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+
+          <!--Cabeçalho-->
+          <div class="modal-header">
+            <h5 class="modal-title">Titulo modal cabeçalho</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <!--Vai executar a ação de fechar o modal-->
+              <span>&times;</span>
+            </button>
+          </div>
+
+          <!--Corpo-->
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laboriosam nesciunt praesentium doloribus minima tempora exercitationem qui rerum, temporibus ipsum amet velit, harum alias adipisci. Eius iste deleniti possimus ratione!</p>
+
+            <div class="container-fluid">
+
+              <div class="row">
+
+                <div class="col-6">
+                  <h5>Titulo 1</h5>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nostrum numquam quidem delectus eius alias maiores deleniti animi! Accusamus voluptatibus sapiente reiciendis maiores eligendi fugiat eius quod minus ipsum suscipit.</p>
+                </div>
+
+                <div class="col-6">
+                  <h5>Titulo 2</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nam quisquam, molestiae veritatis, necessitatibus nihil accusantium, cum expedita autem voluptates accusamus cupiditate alias ipsam asperiores facilis fugit doloribus voluptatem at.</p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!--Rodapé-->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">exit</button>
+          </div>
+
+        </div>
+      </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
