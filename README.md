@@ -6,7 +6,7 @@ da biblioteca bootstrap. <br>
 
 ## Acesse: 
 [Facebook](https://www.facebook.com/hugo.silva.5423/) <br>
-[LinkedIn](https://www.linkedin.com/in/hugo-barbosa-a3b40a157/)
+[LinkedIn](https://www.linkedin.com/in/hugo-barbosa-a3b40a157/) <br>
 [Digital Innovation One](https://web.digitalinnovation.one/users/09silvahugo?tab=achievements)
 
 ## Referências
